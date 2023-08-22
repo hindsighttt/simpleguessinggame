@@ -4,7 +4,7 @@ solution = int(randrange(1,11))
 
 def game():
     print("Guess a number between 1 and 10")
-    while solution != 12:
+    while solution == None:
         userguess = int(input("Enter your guess!: "))
         if solution == userguess:
             print("You guessed the right answer which was " +str(solution))
